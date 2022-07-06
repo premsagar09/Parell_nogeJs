@@ -1,0 +1,30 @@
+##$getting  all orders
+
+GET http://localhost:3000/orders
+
+
+###getting all users
+
+GET http://localhost:3000/users
+
+### 
+
+POST http://localhost:3000/users/signin
+
+###getting all products
+
+GET http://localhost:3000/products
+
+###geting products by brand_name
+
+GET http://localhost:3000/products/1
+
+
+###getting all brands
+
+GET http://localhost:3000/brands 
+Content-Type: application/json
+
+{
+    "status":"Not available"
+}
